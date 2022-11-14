@@ -1,5 +1,6 @@
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
+var myBtnS = document.getElementById("myBtnS");
 
 function myFunction() {
   if (video.paused) {
@@ -10,6 +11,19 @@ function myFunction() {
     btn.innerHTML = "Play";
   }
 }
+
+
+function toggleMute() {
+  
+  if(video.muted){
+    video.muted = false;
+    myBtnS.innerHTML = "Mute";
+  } else {
+    video.muted = true;
+    myBtnS.innerHTML = "Unmute";
+  }
+  
+  }
 
 var mini = true;
 
