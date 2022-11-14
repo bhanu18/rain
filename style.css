@@ -48,6 +48,10 @@
     background: #ddd;
     color: black;
   }
+  #myBtnS:hover {
+    background: #ddd;
+    color: black;
+  }
 
   header{
     position: relative;
