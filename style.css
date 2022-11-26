@@ -30,7 +30,8 @@
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: #000;
+    background-color: #000;
+    opacity: 0.6;
     color: #fff;
     cursor: pointer;
   }
@@ -39,7 +40,8 @@
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: #000;
+    background-color: #000;
+    opacity: 0.6;
     color: #fff;
     cursor: pointer;
   }
@@ -111,7 +113,7 @@ main .sidebar {
 }
 
 .hamburger{
-  padding-left: 60px;
+  padding-left: 2rem;
 }
 
 
